@@ -1,0 +1,52 @@
+###
+GET http://localhost:8001/timetable/generate
+
+<> 2021-05-23T133518.200.txt
+
+###
+GET http://localhost:8001/timetable
+
+<> 2021-05-23T133522.200.txt
+
+###
+GET http://localhost:8002/show/JSONfile
+
+<> 2021-05-23T133542.200.txt
+<> 2021-05-23T125457.200.txt
+<> 2021-05-23T125436.404.json
+<> 2021-05-23T104851.200.txt
+
+###
+GET http://localhost:8002/show/JSONfile/custom?fileName=timetables/timetable.json
+
+<> 2021-05-23T124924.200.txt
+<> 2021-05-23T124912.404.json
+<> 2021-05-23T124820.200.txt
+<> 2021-05-23T124615.400.html
+<> 2021-05-23T120220.200.txt
+<> 2021-05-23T115428.200.txt
+<> 2021-05-23T115411.500.json
+<> 2021-05-23T115118.500.json
+
+###
+POST http://localhost:8002/result
+
+<> 2021-05-23T133507.415.json
+
+###
+GET http://localhost:8003/statistic
+
+<> 2021-05-23T134038.200.txt
+
+###
+GET http://localhost:8003/statistic/total
+
+<> 2021-05-23T134116.200.txt
+
+###
+POST http://localhost:8003/post/statistic
+
+<> 2021-05-23T133659.200.json
+<> 2021-05-23T122918.200.json
+<> 2021-05-23T122805.500.json
+<> 2021-05-23T122656.415.json
